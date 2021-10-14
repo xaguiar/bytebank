@@ -11,8 +11,4 @@ export class AppComponent {
 
   }
   title = 'bytebank';
-
-  transferir($event: any) {
-    this.service.adicionar($event)
-  }
 }
